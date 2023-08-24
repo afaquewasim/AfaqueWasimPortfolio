@@ -1,0 +1,127 @@
+.bannerHead {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.banner_main {
+    display: flex;
+    gap: 5rem;
+    margin: 5.3rem 0;
+    align-items: center;
+    position: relative;
+
+    @media (max-width: 950px) {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: auto;
+        margin: 1rem 0;
+    }
+}
+
+
+.infoText {
+    margin: 0 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 28rem;
+    position: relative;
+    @media (max-width: 950px) {
+        width: 26rem;
+    }
+}
+
+.infoText h1 {
+    color: #2d2e32;
+    font-size: 3rem;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.infoText p {
+    color: #555;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.bannerImg {
+    border: 3px solid #2d2e32;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    height: 16rem;
+    transition: all 1s ease-in-out;
+    width: 16rem;
+}
+
+.infoPara {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.icons {
+    margin: 12px 0;
+}
+
+.icons img {
+    margin: 12px 12px 0 0;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: transform 0.3s;
+}
+
+.icons img:hover {
+    transform: scale(1.2);
+}
+
+
+.topTech {
+    display: flex;
+    align-items: center;
+    color: #767676;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    @media (max-width: 950px) {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+.techName {
+    border-right: 2px solid rgba(45, 46, 50, .5);
+    color: #000;
+    font-family: Mulish, sans-serif;
+    font-weight: 600;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    @media (max-width: 950px) {
+        border-right: 0;
+        margin: 15px 0;
+    }
+}
+
+.gif{
+    display: flex;
+}
+
+.topTech img{
+    align-items: center;
+    margin: 0 10px;
+    font-size: 25px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+    transition: transform 0.3s;
+}
+
+.topTech img:hover {
+    transform: scale(1.2);
+}

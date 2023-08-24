@@ -1,0 +1,81 @@
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 55rem;
+    height: fit-content;
+    margin: 5rem 0;
+
+    @media (max-width: 950px) {
+        width: fit-content;
+        margin: 1rem 2rem;
+    }
+}
+
+.contactHead {
+    margin: 2rem 0;
+}
+
+.contactHead h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #504099;
+    margin: 12px 0;
+    text-transform: uppercase;
+}
+
+.contactHead p {
+    font-size: 2rem;
+    margin: 12px 0;
+
+    @media (max-width: 950px) {
+        font-size: 1.4rem;
+    }
+}
+
+.locMial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 3rem;
+    @media (max-width: 950px) {
+        gap: 2.5rem;
+    }
+}
+
+.location,
+.mail {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+}
+
+
+.locHead h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #504099;
+    margin: 12px 0 0 0;
+}
+
+.locHead p {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.mailHead h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #504099;
+    margin: 12px 0 0 0;
+}
+
+.mailHead p {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.mailHead p:hover {
+    color: #147efb;
+}
