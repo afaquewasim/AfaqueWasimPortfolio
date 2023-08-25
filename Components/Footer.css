@@ -6,9 +6,9 @@
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
     @media (max-width: 950px) {
-        /* flex-direction: column; */
         padding: 12px 2px;
         justify-content: space-between;
+        width: 115%;
     }
 }
 
@@ -16,7 +16,7 @@
     font-size: 1.8rem;
     font-weight: bold;
     @media (max-width: 950px) {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 12px 0;
     }
 }
