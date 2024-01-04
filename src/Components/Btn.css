@@ -1,0 +1,30 @@
+.btnAdd{
+    margin: 10px;
+}
+.btnAdd button{
+    padding: 10px;
+    background-color: brown;
+    font-size: 24px;
+}
+
+.btncart{
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    background-color: brown;
+    font-size: 24px;
+}
+
+.btncart span{
+    margin: 0 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

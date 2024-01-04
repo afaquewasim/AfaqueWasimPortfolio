@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 1.5rem 20px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    @media (max-width: 950px) {
+        padding: 12px 2px;
+        justify-content: space-between;
+        width: 115%;
+    }
+}
+
+.footer h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    @media (max-width: 950px) {
+        font-size: 0.8rem;
+        margin: 12px 0;
+    }
+}
+
+.Footericons img {
+    margin: 12px 12px 0 0;
+    cursor: pointer;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 2rem;
+    transition: transform 0.3s;
+    @media (max-width: 950px) {
+        font-size: 1.5rem;
+        margin: 1rem 2px;
+    }
+}
+
+.Footericons img:hover{
+    transform: scale(1.2);
+}

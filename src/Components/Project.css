@@ -1,0 +1,165 @@
+.portfolio {
+    margin: 5rem auto;
+    max-width: 80%;
+    padding: 0 0;
+
+    @media (max-width: 950px) {
+        max-width: 27rem;
+    }
+}
+
+.portfolio_content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.portName {
+    font-size: 1.8;
+    color: #504099;
+    margin: 12px 0;
+    text-transform: uppercase;
+    @media (max-width: 950px) {
+        font-size: 1.3rem;
+    }
+}
+
+.unique {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 12px 0;
+
+    @media (max-width: 950px) {
+        font-size: 1.2rem;
+    }
+}
+
+.allproject {
+    grid-gap: 5rem;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    @media (max-width: 950px) {
+        gap: 1rem;
+        width: fit-content;
+        justify-content: center;
+    }
+}
+
+.myprojects {
+    gap: 3rem;
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 1.7rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    display: flex;
+
+    @media (max-width: 950px) {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        width: 27rem;
+        padding: 2rem 0;
+
+    }
+}
+
+
+
+.imgProject {
+    width: 30rem;
+    margin: 0 2rem 0 0;
+    border-radius: 12px;
+
+    @media (max-width: 950px) {
+        width: 25rem;
+        margin: 0 auto;
+    }
+}
+
+.head {
+    font-size: 25px;
+    color: #504099;
+    text-align: center;
+    margin: 12px 0;
+}
+
+.ProjectInfo p {
+    text-align: justify;
+    width: 95%;
+
+    @media (max-width: 950px) {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+.project {
+    margin: 20px 0;
+    display: flex;
+    @media (max-width: 950px) {
+        justify-content: center;;
+    }
+}
+
+.project div {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(252, 3, 3, 0.1);
+}
+
+.project img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+.btnHead{
+    display: flex;
+    @media (max-width: 950px) {
+        justify-content: center;;
+    }
+}
+
+.btnHead div {
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    background: transparent;
+    margin: 12px 25px 0 0;
+    font-size: 18px;
+    width: fit-content;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(252, 3, 3, 0.1);
+
+    @media (max-width: 950px) {
+        display: flex;
+        justify-content: center;;
+    }
+}
+
+.btnHead div img{
+    margin: 0 5px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.btnHead div:hover {
+    color: #2965f1;
+}
