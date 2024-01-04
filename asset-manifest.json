@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/https//afaquewasim.github.io/afaque/static/css/main.87a36e93.css",
+    "main.js": "/https//afaquewasim.github.io/afaque/static/js/main.e5107411.js",
+    "static/media/image-gallery.png": "/https//afaquewasim.github.io/afaque/static/media/image-gallery.e92deff971543b5e7eb0.png",
+    "static/media/Developer activity-amico.png": "/https//afaquewasim.github.io/afaque/static/media/Developer activity-amico.261cffdaf28aa3b59fbe.png",
+    "static/media/dicegame.png": "/https//afaquewasim.github.io/afaque/static/media/dicegame.f721cd5fd601e7cf9b38.png",
+    "static/media/banner.jpeg": "/https//afaquewasim.github.io/afaque/static/media/banner.fd53c12be10b17186557.jpeg",
+    "static/media/expences.png": "/https//afaquewasim.github.io/afaque/static/media/expences.e6ea585c477e219380c1.png",
+    "static/media/Neumorphism-Form.png": "/https//afaquewasim.github.io/afaque/static/media/Neumorphism-Form.db64a9475d75e0bb4ccc.png",
+    "index.html": "/https//afaquewasim.github.io/afaque/index.html",
+    "main.87a36e93.css.map": "/https//afaquewasim.github.io/afaque/static/css/main.87a36e93.css.map",
+    "main.e5107411.js.map": "/https//afaquewasim.github.io/afaque/static/js/main.e5107411.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a36e93.css",
+    "static/js/main.e5107411.js"
+  ]
+}
