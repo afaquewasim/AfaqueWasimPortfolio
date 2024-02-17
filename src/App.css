@@ -15,20 +15,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.main{
-  @media (max-width: 550px)
-  {
-      justify-content: space-between;
-      width: 100%;
-  }
-}
-
-
 @media (max-width: 550px) {
   body {
-    width:110%;
+    width: 110%;
     margin: 0 auto;
   }
-  
-}
+
+  .main {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
