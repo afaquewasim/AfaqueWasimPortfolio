@@ -15,9 +15,18 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 950px) {
+.main{
+  @media (max-width: 550px)
+  {
+      justify-content: space-between;
+      width: 100%;
+  }
+}
+
+
+@media (max-width: 550px) {
   body{
-    width: 110%;
+    width: 113%;
     margin: 0 auto;
   }
 }
