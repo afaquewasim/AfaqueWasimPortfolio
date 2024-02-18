@@ -25,8 +25,7 @@ const Banner = () => {
         <div className='bannerHead' id='home'>
             <div className="banner_main">
                 <div className="infoText">
-                    <h1>Front-End React</h1>
-                    <h1>Developer <span>👋</span></h1>
+                    <h1>Front-End React Developer 👋</h1>
                     <div className="infoPara">
                         <p>Hi, I am Afaque Wasim. A passionate front-end React Developer based in Delhi, India</p>
                     </div>
