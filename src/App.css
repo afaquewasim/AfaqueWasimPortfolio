@@ -23,8 +23,7 @@ html {
     margin: 0 auto;
   }
 
-  .main {
-    justify-content: space-between;
-    width: 100%;
+  *{
+    margin: 0 auto;
   }
 }
